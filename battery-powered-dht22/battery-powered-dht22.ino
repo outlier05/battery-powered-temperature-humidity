@@ -44,10 +44,10 @@ void loop() {
   delay(1000);
   ust_kisim();
   higro_termo();
-  //for (unsigned int i = 0; i < 4; i++) {
- //   LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);
- // }
- // delay(2000);
+  for (unsigned int i = 0; i < 4; i++) {
+    LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);
+ }
+ delay(2000);
 }
 
 void ust_kisim() {
