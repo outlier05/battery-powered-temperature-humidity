@@ -14,7 +14,7 @@
 
 //dht var
 #define DHTPIN 2
-#define DHTTYPE DHT11
+#define DHTTYPE DHT22
 
 //DHT
 DHT dht(DHTPIN, DHTTYPE);
